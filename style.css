@@ -1,0 +1,222 @@
+body {
+
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+.result-section {
+    border-radius: 1.5rem;
+    color: white;
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    
+}
+
+.result-title {
+    padding: 0.6rem;
+    
+}
+
+.circle {
+    display: flex;
+    font-size: larger;
+    margin: auto;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    padding: 1rem;
+}
+
+.number-pp{
+   
+    padding: 1.50rem;
+    display: flex;
+    font-size: 2.85rem;
+    margin: 0;
+    margin-top: 1.25rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.number-sub{
+    color: rgb(174, 174, 174);
+    display: flex;
+    font-size: 0.75rem;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    padding: 0.70rem;
+    padding-top: 0.4;
+
+}
+
+.result-message{
+
+    margin: 1rem;
+    font-size: 1.25rem;
+
+}
+
+.grey {
+
+    color: rgb(174, 174, 174);
+
+}
+.describe {
+    color: rgb(174, 174, 174);
+    margin: 1rem;
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 0.90rem;
+}
+
+
+
+.result-message, .circle, .result-title, .describe {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+ .result-section {
+    margin: auto;
+    padding: 1rem;
+    list-style-type: none;
+}
+
+.summary-title {
+    font-size: 1rem;
+    margin-top: 1.60rem;
+    display: flex;
+    margin-bottom: 0;
+
+}
+
+.summary {
+
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 50, 0.05);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.summary-content {
+
+    display: flex;
+    flex-direction: column;
+    color: black;
+    list-style-type: none; 
+    line-height: 2rem;
+    margin-top: 0.7rem;
+    padding-top: 0;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    padding-left: 0;
+}
+
+
+
+
+.general {
+    
+    display: flex;
+    width: 30%;
+    padding: 10%;
+    margin:auto;
+    line-height: 1.5rem;
+
+
+}
+
+.summary, .result-section {
+    flex: 1;
+    height: auto;
+}
+
+.sum-box1, .sum-box2, .sum-box3, .sum-box4 {
+    font-weight: bold;
+    display: flex;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 0.75rem;
+    margin-left: 0;
+    padding-left: 0.5rem;
+    width: auto;
+    margin-right: 0;
+    align-items: center;
+}
+
+
+img {
+    margin-right: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+
+}
+
+
+
+span {
+    color: black;
+    display: flex;
+    margin-right: 0.5rem;
+    margin-left: auto;
+
+}
+
+
+.sum-box1 {
+    color: hsla(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 5%);
+
+}
+
+.sum-box2 {
+    color: hsla(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 5%);    
+
+}
+
+.sum-box3 {
+    color:hsla(166, 100%, 37%);
+    background-color:hsla(166, 100%, 37%, 5%);
+
+}
+
+.sum-box4 {
+    color: hsla(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 5%);
+
+}
+
+.button {
+   
+  
+    color: white;
+    display: flex;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+
+
